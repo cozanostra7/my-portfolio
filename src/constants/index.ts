@@ -10,7 +10,6 @@ import type {
 import {
   mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
@@ -18,11 +17,9 @@ import {
   css,
   reactjs,
   redux,
-  tailwind,
-  nodejs,
+
   mongodb,
   git,
-  figma,
   docker,
   meta,
   starbucks,
@@ -31,7 +28,6 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -61,61 +57,41 @@ const services: TService[] = [
   {
     title: "Backend Developer",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  }
 ];
 
 const technologies: TTechnology[] = [
   {
-    name: "HTML 5",
+    name: "Python",
     icon: html,
   },
   {
-    name: "CSS 3",
+    name: "Django REST Framework",
     icon: css,
   },
   {
-    name: "JavaScript",
+    name: "FastAPI",
     icon: javascript,
   },
   {
-    name: "TypeScript",
+    name: "PostgreSQL",
     icon: typescript,
   },
   {
-    name: "React JS",
+    name: "Alembic",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    name: "Redis",
     icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
   },
   {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
   },
   {
     name: "docker",
